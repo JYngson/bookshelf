@@ -12,7 +12,7 @@ export default function GoogleAuthButton() {
       onClick={handleClick}
     >
       <FcGoogle className='h-5/6 w-1/4'/>
-      <p className='m-auto w-3/4 text-center'>
+      <p className='m-auto w-3/4 text-center text-slate-800'>
         Log in with Google
       </p>
     </button>
