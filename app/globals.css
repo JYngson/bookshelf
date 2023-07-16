@@ -8,6 +8,8 @@ body{
 
 .base{
   background-color: rgb(24,24,27);
+  height: 100vh;
+  width: 100vw;
 }
 
 /* :root {

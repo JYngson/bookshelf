@@ -1,6 +1,6 @@
 "use client"
 
-import { useSession, signIn, signOut } from "next-auth/react"
+import { signIn, signOut } from "next-auth/react"
 
 export default function LoginLogout(name:any) {
   const handleSignOut = () => {
@@ -9,6 +9,7 @@ export default function LoginLogout(name:any) {
   const handleSignIn = () => {
     signIn("google")
   }
+  
   if(name) {
     return(
       <div className='mx-2 px-2 rounded-md bg-sky-600 border-2 border-slate-600'>
