@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function page() {
+export default function Bookshelf() {
   return (
     <div>
       <Link href={"/"}>To: Home Page</Link>
